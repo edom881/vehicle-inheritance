@@ -8,6 +8,16 @@ public class Vehicle {
         private int cargoCapacity;
         private int fuelCapacity;
 
+    // constructor
+    public Vehicle(String color, int numberOfPassengers,
+                   int cargoCapacity, int fuelCapacity) {
+
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
         // getter for color
         public String getColor() {
             return color;
