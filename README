@@ -1,0 +1,29 @@
+# Vehicle Inheritance Project
+
+This Java project demonstrates inheritance using a Vehicle parent class and multiple child classes.
+
+## Classes
+- Vehicle
+- Moped
+- Car
+- SemiTruck
+- Hovercraft
+
+## Concepts Used
+- Inheritance
+- Constructors
+- super()
+- Getters and Setters
+- Object Creation
+
+## How It Works
+The Vehicle class contains shared properties like:
+- color
+- number of passengers
+- cargo capacity
+- fuel capacity
+
+Child classes inherit these properties and use constructors with super() to initialize them.
+
+## Author
+Edom Gezahegn
